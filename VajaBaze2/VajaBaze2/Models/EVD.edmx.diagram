@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="df531d5cfabb4e35b6fbc54efb2ca256" Name="Diagram1">
+        <EntityTypeShape EntityType="EVDModel.Dijak" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.DijakPodročje" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.Izvedba" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.IzvedbaDijak" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.IzvedbaMentor" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.Mentor" Width="1.5" PointX="3" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.PlanDejavnosti" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.PlanDijak" Width="1.5" PointX="8.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.PlanSodelavci" Width="1.5" PointX="8.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.Področja" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.Razredniki" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EVDModel.Slike" Width="1.5" PointX="5.25" PointY="15.125" IsExpanded="true" />
+        <AssociationConnector Association="EVDModel.FK_Dijak_Razrednik" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_DijakPodročje_Dijak" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_IzvedbaDijak_Dijak" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_PlanDijak_Dijak" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_DijakPodročje_Področja" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_Izvedba_Področja" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_IzvedbaDijak_Izvedba" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_IzvedbaMentor_Izvedba" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_Slika_Izvedba" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_IzvedbaMentor_Mentor" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_PlanSodelavci_Mentor" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_PlanDejavnosti_Področja" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_PlanDijak_PlanDejavnosti" ManuallyRouted="false" />
+        <AssociationConnector Association="EVDModel.FK_PlanSodelavci_PlanDejavnosti" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
