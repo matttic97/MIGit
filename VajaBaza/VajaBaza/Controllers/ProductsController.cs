@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -13,6 +14,13 @@ namespace VajaBaza.Controllers
     public class ProductsController : Controller
     {
         private ADWEntities db = new ADWEntities();
+
+        public ActionResult Show(int id)
+        {
+            var imageData = db.Product.Where(p => p.ProductID == id).
+                Select(p => p.ThumbNailPhoto).FirstOrDefault().ToArray();
+            return File(imageData, "image/jpg");
+        }
 
         // GET: Products
         public ActionResult Index()
@@ -48,10 +56,33 @@ namespace VajaBaza.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ProductID,Name,ProductNumber,Color,StandardCost,ListPrice,Size,Weight,ProductCategoryID,ProductModelID,SellStartDate,SellEndDate,DiscontinuedDate,ThumbNailPhoto,ThumbnailPhotoFileName,rowguid,ModifiedDate")] Product product)
+        public ActionResult Create([Bind(Include = "ProductID,Name,ProductNumber,Color,StandardCost,ListPrice," +
+            "Size,Weight,ProductCategoryID,ProductModelID,SellStartDate,SellEndDate,DiscontinuedDate," +
+            "ThumbNailPhoto,ThumbnailPhotoFileName")] Product product, HttpPostedFileBase file)
         {
+            product.rowguid = Guid.NewGuid();
+            product.ModifiedDate = DateTime.Now;
+
             if (ModelState.IsValid)
             {
+                if(file != null)
+                {
+                    string pic = Path.GetFileName(file.FileName);
+                    string path = Path.Combine(Server.MapPath("~/images/"), pic);
+                    file.SaveAs(path);
+
+                    //shrani ime datoteke v bazo
+                    FileInfo fi = new FileInfo(path);
+                    product.ThumbnailPhotoFileName = fi.Name;
+
+                    //shrani sliko kot zaporedje bytov
+                    using (MemoryStream ms = new MemoryStream())
+                    {
+                        file.InputStream.CopyTo(ms);
+                        product.ThumbNailPhoto = ms.GetBuffer();
+                    }
+                }
+
                 db.Product.Add(product);
                 db.SaveChanges();
                 return RedirectToAction("Index");

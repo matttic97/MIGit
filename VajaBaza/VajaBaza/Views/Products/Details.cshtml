@@ -97,6 +97,16 @@
         <dd>
             @Html.DisplayFor(model => model.DiscontinuedDate)
         </dd>
+
+        <dt>
+            @*Html.DisplayNameFor(model => model.ThumbNailPhoto)*@
+            Slika:
+        </dt>
+        <dd>
+            @**@
+            <img src="@Url.Action("Show", "Products", new {id=Model.ProductID})">
+        </dd>
+
         <dt>
             @Html.DisplayNameFor(model => model.ModifiedDate)
         </dt>
