@@ -1,0 +1,11 @@
+D:\MIGit\Program\Program\bin\Debug\netcoreapp2.0\Program.deps.json
+D:\MIGit\Program\Program\bin\Debug\netcoreapp2.0\Program.runtimeconfig.json
+D:\MIGit\Program\Program\bin\Debug\netcoreapp2.0\Program.runtimeconfig.dev.json
+D:\MIGit\Program\Program\bin\Debug\netcoreapp2.0\Program.dll
+D:\MIGit\Program\Program\obj\Debug\netcoreapp2.0\Program.csprojResolveAssemblyReference.cache
+D:\MIGit\Program\Program\obj\Debug\netcoreapp2.0\Program.csproj.CoreCompileInputs.cache
+D:\MIGit\Program\Program\obj\Debug\netcoreapp2.0\Program.AssemblyInfoInputs.cache
+D:\MIGit\Program\Program\obj\Debug\netcoreapp2.0\Program.AssemblyInfo.cs
+D:\MIGit\Program\Program\bin\Debug\netcoreapp2.0\Program.pdb
+D:\MIGit\Program\Program\obj\Debug\netcoreapp2.0\Program.dll
+D:\MIGit\Program\Program\obj\Debug\netcoreapp2.0\Program.pdb
