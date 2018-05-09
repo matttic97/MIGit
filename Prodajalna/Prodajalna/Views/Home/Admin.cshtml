@@ -1,0 +1,49 @@
+﻿@model Prodajalna.Models.Product
+
+@{
+    ViewBag.Title = "Admin";
+}
+<script src="~/Scripts/knockout-3.4.2.js"></script>
+<script type="text/javascript">
+    function ProductVewModel() {
+        var self = this;
+        self.products = ko.observableArray();
+
+        var baseUri = '@ViewBag.ApiUrl';
+        $.getJSON(baseUri, self.products);
+    }
+    $(document).ready(function () {
+        ko.applyBindings(new ProductVewModel());
+    })
+</script>
+
+<h2>Admin</h2>
+<div class="content">
+    <div class="float-left">
+        <ul id="update-products">
+            <li>
+                <div>
+                    <div class="item">Produkt id</div>
+                    <span></span>
+                </div>
+                <div>
+                    <div class="item">Ime</div>
+                    <input type="text" />
+                </div>
+                <div>
+                    <div class="item">Cena</div>
+                    <input type="text" />
+                </div>
+                <div>
+                    <div class="item">Strošek</div>
+                    <input type="text" />
+                </div>
+                <div>
+                    <input type="button" value="Update"/>
+                    <input type="button" value="Delete"/>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
