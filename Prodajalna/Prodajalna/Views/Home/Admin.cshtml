@@ -3,6 +3,10 @@
 @{
     ViewBag.Title = "Admin";
 }
+
+@section Scripts
+    {
+@Scripts.Render("~/bundles/jqueryval")
 <script src="~/Scripts/knockout-3.4.2.js"></script>
 <script type="text/javascript">
     function ProductVewModel() {
@@ -16,27 +20,28 @@
         ko.applyBindings(new ProductVewModel());
     })
 </script>
+    }
 
 <h2>Admin</h2>
 <div class="content">
     <div class="float-left">
-        <ul id="update-products">
+        <ul id="update-products" data-bind="foreach: products">
             <li>
                 <div>
                     <div class="item">Produkt id</div>
-                    <span></span>
+                    <span data-bind="text:$data.Id"></span>
                 </div>
                 <div>
                     <div class="item">Ime</div>
-                    <input type="text" />
+                    <input type="text" data-bind="value:$data.Name"/>
                 </div>
                 <div>
                     <div class="item">Cena</div>
-                    <input type="text" />
+                    <input type="text" data-bind="value:$data.Price"/>
                 </div>
                 <div>
                     <div class="item">Strošek</div>
-                    <input type="text" />
+                    <input type="text" data-bind="value:$data.ActualCost"/>
                 </div>
                 <div>
                     <input type="button" value="Update"/>

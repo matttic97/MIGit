@@ -88,8 +88,8 @@ D:\MIGit\VajaBaze2\VajaBaze2\bin\Microsoft.AI.DependencyCollector.xml
 D:\MIGit\VajaBaze2\VajaBaze2\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\MIGit\VajaBaze2\VajaBaze2\bin\Microsoft.AI.WindowsServer.xml
 D:\MIGit\VajaBaze2\VajaBaze2\bin\Microsoft.AI.Web.xml
-D:\MIGit\VajaBaze2\VajaBaze2\obj\Debug\VajaBaze2.csprojResolveAssemblyReference.cache
 D:\MIGit\VajaBaze2\VajaBaze2\obj\Debug\VajaBaze2.csproj.CoreCompileInputs.cache
 D:\MIGit\VajaBaze2\VajaBaze2\obj\Debug\VajaBaze2.csproj.CopyComplete
 D:\MIGit\VajaBaze2\VajaBaze2\obj\Debug\VajaBaze2.dll
 D:\MIGit\VajaBaze2\VajaBaze2\obj\Debug\VajaBaze2.pdb
+D:\MIGit\VajaBaze2\VajaBaze2\obj\Debug\VajaBaze2.csprojAssemblyReference.cache

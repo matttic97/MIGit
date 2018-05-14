@@ -90,7 +90,6 @@ D:\MIGit\Prodajalna\Prodajalna\bin\Microsoft.AI.DependencyCollector.xml
 D:\MIGit\Prodajalna\Prodajalna\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\MIGit\Prodajalna\Prodajalna\bin\Microsoft.AI.WindowsServer.xml
 D:\MIGit\Prodajalna\Prodajalna\bin\Microsoft.AI.Web.xml
-D:\MIGit\Prodajalna\Prodajalna\obj\Debug\Prodajalna.csprojResolveAssemblyReference.cache
 D:\MIGit\Prodajalna\Prodajalna\obj\Debug\Prodajalna.csproj.CoreCompileInputs.cache
 D:\MIGit\Prodajalna\Prodajalna\obj\Debug\Prodajalna.csproj.CopyComplete
 D:\MIGit\Prodajalna\Prodajalna\obj\Debug\Prodajalna.dll
@@ -99,3 +98,4 @@ D:\MIGit\Prodajalna\Prodajalna\bin\EntityFramework.dll
 D:\MIGit\Prodajalna\Prodajalna\bin\EntityFramework.SqlServer.dll
 D:\MIGit\Prodajalna\Prodajalna\bin\EntityFramework.xml
 D:\MIGit\Prodajalna\Prodajalna\bin\EntityFramework.SqlServer.xml
+D:\MIGit\Prodajalna\Prodajalna\obj\Debug\Prodajalna.csprojAssemblyReference.cache
