@@ -189,7 +189,7 @@ namespace MVVMZapisi.MVVMZapisi_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[12];
+            _typeNameTable = new string[11];
             _typeNameTable[0] = "MVVMZapisi.MojViewModel";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "System.Collections.ObjectModel.ObservableCollection`1<MVVMZapisi.MojZapis>";
@@ -198,12 +198,11 @@ namespace MVVMZapisi.MVVMZapisi_XamlTypeInfo
             _typeNameTable[5] = "String";
             _typeNameTable[6] = "Windows.UI.Color";
             _typeNameTable[7] = "System.ValueType";
-            _typeNameTable[8] = "MVVMZapisi.DelegateCommand";
-            _typeNameTable[9] = "MVVMZapisi.MainPage";
-            _typeNameTable[10] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[11] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[8] = "MVVMZapisi.MainPage";
+            _typeNameTable[9] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[10] = "Windows.UI.Xaml.Controls.UserControl";
 
-            _typeTable = new global::System.Type[12];
+            _typeTable = new global::System.Type[11];
             _typeTable[0] = typeof(global::MVVMZapisi.MojViewModel);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::MVVMZapisi.MojZapis>);
@@ -212,10 +211,9 @@ namespace MVVMZapisi.MVVMZapisi_XamlTypeInfo
             _typeTable[5] = typeof(global::System.String);
             _typeTable[6] = typeof(global::Windows.UI.Color);
             _typeTable[7] = typeof(global::System.ValueType);
-            _typeTable[8] = typeof(global::MVVMZapisi.DelegateCommand);
-            _typeTable[9] = typeof(global::MVVMZapisi.MainPage);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[8] = typeof(global::MVVMZapisi.MainPage);
+            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -254,7 +252,7 @@ namespace MVVMZapisi.MVVMZapisi_XamlTypeInfo
         private object Activate_2_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::MVVMZapisi.MojZapis>(); }
         private object Activate_3_Collection() { return new global::System.Collections.ObjectModel.Collection<global::MVVMZapisi.MojZapis>(); }
         private object Activate_4_MojZapis() { return new global::MVVMZapisi.MojZapis(); }
-        private object Activate_9_MainPage() { return new global::MVVMZapisi.MainPage(); }
+        private object Activate_8_MainPage() { return new global::MVVMZapisi.MainPage(); }
         private void VectorAdd_2_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::MVVMZapisi.MojZapis>)instance;
@@ -284,7 +282,6 @@ namespace MVVMZapisi.MVVMZapisi_XamlTypeInfo
                 userType.AddMemberName("Zapis");
                 userType.AddMemberName("Trenutni");
                 userType.AddMemberName("Naslov");
-                userType.AddMemberName("NarediZelenoUkaz");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -331,25 +328,18 @@ namespace MVVMZapisi.MVVMZapisi_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 8:   //  MVVMZapisi.DelegateCommand
-                userType = new global::MVVMZapisi.MVVMZapisi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 9:   //  MVVMZapisi.MainPage
+            case 8:   //  MVVMZapisi.MainPage
                 userType = new global::MVVMZapisi.MVVMZapisi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_MainPage;
+                userType.Activator = Activate_8_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Windows.UI.Xaml.Controls.Page
+            case 9:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::MVVMZapisi.MVVMZapisi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Windows.UI.Xaml.Controls.UserControl
+            case 10:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::MVVMZapisi.MVVMZapisi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -407,16 +397,6 @@ namespace MVVMZapisi.MVVMZapisi_XamlTypeInfo
             var that = (global::MVVMZapisi.MojViewModel)instance;
             that.Naslov = (global::System.String)Value;
         }
-        private object get_5_MojViewModel_NarediZelenoUkaz(object instance)
-        {
-            var that = (global::MVVMZapisi.MojViewModel)instance;
-            return that.NarediZelenoUkaz;
-        }
-        private void set_5_MojViewModel_NarediZelenoUkaz(object instance, object Value)
-        {
-            var that = (global::MVVMZapisi.MojViewModel)instance;
-            that.NarediZelenoUkaz = (global::MVVMZapisi.DelegateCommand)Value;
-        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -454,12 +434,6 @@ namespace MVVMZapisi.MVVMZapisi_XamlTypeInfo
                 xamlMember = new global::MVVMZapisi.MVVMZapisi_XamlTypeInfo.XamlMember(this, "Naslov", "String");
                 xamlMember.Getter = get_4_MojViewModel_Naslov;
                 xamlMember.Setter = set_4_MojViewModel_Naslov;
-                break;
-            case "MVVMZapisi.MojViewModel.NarediZelenoUkaz":
-                userType = (global::MVVMZapisi.MVVMZapisi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MVVMZapisi.MojViewModel");
-                xamlMember = new global::MVVMZapisi.MVVMZapisi_XamlTypeInfo.XamlMember(this, "NarediZelenoUkaz", "MVVMZapisi.DelegateCommand");
-                xamlMember.Getter = get_5_MojViewModel_NarediZelenoUkaz;
-                xamlMember.Setter = set_5_MojViewModel_NarediZelenoUkaz;
                 break;
             }
             return xamlMember;

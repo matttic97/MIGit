@@ -211,3 +211,4 @@ C:\MIGit\MIGit\MVVMZapisi\MVVMZapisi\obj\x86\Debug\qualifiers.txt
 C:\MIGit\MIGit\MVVMZapisi\MVVMZapisi\obj\x86\Debug\qualifiers.txt.intermediate
 C:\MIGit\MIGit\MVVMZapisi\MVVMZapisi\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\MIGit\MIGit\MVVMZapisi\MVVMZapisi\obj\x86\Debug\ProjectArchitectures.txt
+C:\MIGit\MIGit\MVVMZapisi\MVVMZapisi\obj\x86\Debug\MVVMZapisi.csprojAssemblyReference.cache

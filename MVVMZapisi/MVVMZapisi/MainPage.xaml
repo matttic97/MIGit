@@ -34,7 +34,11 @@
             <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
         <TextBlock FontSize="36" Text="{Binding Naslov}"/>
-        <ContentControl Content="{Binding Trenutni}" ContentTemplate="{StaticResource predloga}" Grid.Row="2"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="20">
+            <ContentControl Content="{Binding Trenutni}" 
+                            ContentTemplate="{StaticResource predloga}"/>
+            <Button Content="Naredi izbranega zelenega" Margin="10" Command="{Binding NarediZelenoUkaz}"/>
+        </StackPanel>
         <GridView ItemsSource="{Binding Zapis}" Grid.Row="1" ItemTemplate="{StaticResource predloga}" SelectedItem="{Binding Trenutni, Mode=TwoWay}">
         </GridView>
     </Grid>

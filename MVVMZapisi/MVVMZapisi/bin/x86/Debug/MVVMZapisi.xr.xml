@@ -5,6 +5,7 @@
     <RootPropertyPathName Name="Ime" />
     <RootPropertyPathName Name="Zapis" />
     <RootPropertyPathName Name="Trenutni" />
+    <RootPropertyPathName Name="NarediZelenoUkaz" />
     <RootPropertyPathName Name="Naslov" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -40,6 +41,8 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="FontSize" />
@@ -49,16 +52,21 @@
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
-      <RootProperty Name="Content" />
-      <RootProperty Name="ContentTemplate" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="SelectedItem" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="Content" />
+      <RootProperty Name="ContentTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Command" />
+    </RootType>
     <RootType FullName="MVVMZapisi.MainPage" />
   </Roots.RootTypes>
 </Roots>
