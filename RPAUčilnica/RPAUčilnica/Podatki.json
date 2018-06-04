@@ -1,0 +1,2249 @@
+﻿[
+  {
+    "id": 1546,
+    "name": "Splošno",
+    "visible": 1,
+    "summary": "<p>Forumi in diskusije<br></p>",
+    "summaryformat": 1,
+    "section": 0,
+    "hiddenbynumsections": 0,
+    "uservisible": true,
+    "modules": [
+      {
+        "id": 6339,
+        "url": "https://eucilnica.scng.si/mod/forum/view.php?id=6339",
+        "name": "Forum novic",
+        "instance": 457,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/forum/1527072998/icon",
+        "modname": "forum",
+        "modplural": "Forumi",
+        "indent": 0
+      },
+      {
+        "id": 42735,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42735",
+        "name": "Izpit pri predmetu RPA2018",
+        "instance": 22172,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Izpit pri predmetu RPA2018.pdf",
+            "filepath": "/",
+            "filesize": 282228,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70537/mod_resource/content/0/Izpit%20pri%20predmetu%20RPA2018.pdf?forcedownload=1",
+            "timecreated": 1523166391,
+            "timemodified": 1523166391,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 40920,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=40920",
+        "name": "Spletna aplikacija",
+        "instance": 21434,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Spletna aplikacija.pdf",
+            "filepath": "/",
+            "filesize": 170000,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/66735/mod_resource/content/0/Spletna%20aplikacija.pdf?forcedownload=1",
+            "timecreated": 1496743578,
+            "timemodified": 1496743578,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 38630,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=38630",
+        "name": "Koncept aplikacije - drugi del seminarske naloge",
+        "instance": 20680,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Koncept aplikacije.pdf",
+            "filepath": "/",
+            "filesize": 344265,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60169/mod_resource/content/0/Koncept%20aplikacije.pdf?forcedownload=1",
+            "timecreated": 1458642223,
+            "timemodified": 1458642224,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 40921,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=40921",
+        "name": "Mobilna aplikacija",
+        "instance": 21435,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Mobilna aplikacija.pdf",
+            "filepath": "/",
+            "filesize": 167842,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/66736/mod_resource/content/0/Mobilna%20aplikacija.pdf?forcedownload=1",
+            "timecreated": 1496743723,
+            "timemodified": 1496743723,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1551,
+    "name": "Delo v skupini, git, github",
+    "visible": 1,
+    "summary": "<br>",
+    "summaryformat": 1,
+    "section": 2,
+    "hiddenbynumsections": 0,
+    "uservisible": true,
+    "modules": [
+      {
+        "id": 42728,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42728",
+        "name": "Kontrola verzij uvod",
+        "instance": 22165,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Kontrola verzij uvod.pptx",
+            "filepath": "/",
+            "filesize": 205374,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70530/mod_resource/content/0/Kontrola%20verzij%20uvod.pptx?forcedownload=1",
+            "timecreated": 1523165613,
+            "timemodified": 1523165614,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42729,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42729",
+        "name": "Osnove Git-a",
+        "instance": 22166,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Osnove Git-a.pptx",
+            "filepath": "/",
+            "filesize": 323839,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70531/mod_resource/content/0/Osnove%20Git-a.pptx?forcedownload=1",
+            "timecreated": 1523165621,
+            "timemodified": 1523165621,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42730,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42730",
+        "name": "Pregled zgodovine",
+        "instance": 22167,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Pregled zgodovine.pptx",
+            "filepath": "/",
+            "filesize": 182631,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70532/mod_resource/content/0/Pregled%20zgodovine.pptx?forcedownload=1",
+            "timecreated": 1523165628,
+            "timemodified": 1523165628,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42732,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42732",
+        "name": "Vejitve",
+        "instance": 22169,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Vejitve.pptx",
+            "filepath": "/",
+            "filesize": 623062,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70534/mod_resource/content/0/Vejitve.pptx?forcedownload=1",
+            "timecreated": 1523165752,
+            "timemodified": 1523165752,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42733,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42733",
+        "name": "Rebasing",
+        "instance": 22170,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Rebasing.pptx",
+            "filepath": "/",
+            "filesize": 81356,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70535/mod_resource/content/0/Rebasing.pptx?forcedownload=1",
+            "timecreated": 1523165764,
+            "timemodified": 1523165765,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42731,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42731",
+        "name": "Oddaljene veje",
+        "instance": 22168,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Oddaljene veje.pptx",
+            "filepath": "/",
+            "filesize": 192201,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70533/mod_resource/content/0/Oddaljene%20veje.pptx?forcedownload=1",
+            "timecreated": 1523165733,
+            "timemodified": 1523165734,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42734,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42734",
+        "name": "GitHub",
+        "instance": 22171,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "GitHub.pptx",
+            "filepath": "/",
+            "filesize": 1098753,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70536/mod_resource/content/0/GitHub.pptx?forcedownload=1",
+            "timecreated": 1523165774,
+            "timemodified": 1523165774,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 17693,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=17693",
+        "name": "Testiranje ",
+        "instance": 10912,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Testiranje.pdf",
+            "filepath": "/",
+            "filesize": 482872,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/26905/mod_resource/content/0/Testiranje.pdf?forcedownload=1",
+            "timecreated": 1441949068,
+            "timemodified": 1300350092,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 29733,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=29733",
+        "name": "Testiranje primeri",
+        "instance": 18476,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "TestiranjePrimeri.pdf",
+            "filepath": "/",
+            "filesize": 421449,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/47283/mod_resource/content/0/TestiranjePrimeri.pdf?forcedownload=1",
+            "timecreated": 1441949068,
+            "timemodified": 1434523622,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 42737,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42737",
+        "name": "Bližnjice za git",
+        "instance": 22173,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/png-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "git.png",
+            "filepath": "/",
+            "filesize": 305318,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70539/mod_resource/content/0/git.png?forcedownload=1",
+            "timecreated": 1523167847,
+            "timemodified": 1523167847,
+            "sortorder": 1,
+            "mimetype": "image/png",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1547,
+    "name": "Izdelava aktivnih spletnih strani ",
+    "visible": 1,
+    "summary": "",
+    "summaryformat": 1,
+    "section": 4,
+    "hiddenbynumsections": 0,
+    "uservisible": true,
+    "modules": [
+      {
+        "id": 42815,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42815",
+        "name": "MVCAplikacije",
+        "instance": 22185,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "MVCAplikacije.pdf",
+            "filepath": "/",
+            "filesize": 1206286,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70647/mod_resource/content/0/MVCAplikacije.pdf?forcedownload=1",
+            "timecreated": 1523685533,
+            "timemodified": 1523685537,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42870,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42870",
+        "name": "AdventureWorks",
+        "instance": 22205,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "AdventureWorks.zip",
+            "filepath": "/",
+            "filesize": 1333652,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70741/mod_resource/content/0/AdventureWorks.zip?forcedownload=1",
+            "timecreated": 1524064830,
+            "timemodified": 1524064830,
+            "sortorder": 1,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 27823,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27823",
+        "name": "Vaje",
+        "instance": 17378,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Vaje_22.4.2014.pdf",
+            "filepath": "/",
+            "filesize": 339241,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43637/mod_resource/content/0/Vaje_22.4.2014.pdf?forcedownload=1",
+            "timecreated": 1441949069,
+            "timemodified": 1398072586,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 27824,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27824",
+        "name": "Baza",
+        "instance": 17379,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Evidenca.zip",
+            "filepath": "/",
+            "filesize": 10375306,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43638/mod_resource/content/0/Evidenca.zip?forcedownload=1",
+            "timecreated": 1441949058,
+            "timemodified": 1398072688,
+            "sortorder": 0,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 42817,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42817",
+        "name": "Uvod v bootstrap",
+        "instance": 22187,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Uvod v bootstrap.pptx",
+            "filepath": "/",
+            "filesize": 413559,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70649/mod_resource/content/0/Uvod%20v%20bootstrap.pptx?forcedownload=1",
+            "timecreated": 1523774140,
+            "timemodified": 1523774140,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42816,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42816",
+        "name": "BootstrapMreža",
+        "instance": 22186,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "BootstrapMreža.pptx",
+            "filepath": "/",
+            "filesize": 42408,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70648/mod_resource/content/0/BootstrapMre%C5%BEa.pptx?forcedownload=1",
+            "timecreated": 1523774135,
+            "timemodified": 1523774135,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42821,
+        "url": "https://eucilnica.scng.si/mod/url/view.php?id=42821",
+        "name": "Bootstrap code snippets",
+        "instance": 4056,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/url/1527072998/icon",
+        "modname": "url",
+        "modplural": "URL-ji",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "url",
+            "filename": "Bootstrap code snippets",
+            "filepath": null,
+            "filesize": 0,
+            "fileurl": "https://marketplace.visualstudio.com/items?itemName=EricLebetsamer.BootstrapSnippetPack",
+            "timecreated": null,
+            "timemodified": 1523776514,
+            "sortorder": null,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 42818,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42818",
+        "name": "Vaja Bootstrap 1",
+        "instance": 22188,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Vaja Bootstrap 1.pdf",
+            "filepath": "/",
+            "filesize": 544340,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70650/mod_resource/content/0/Vaja%20Bootstrap%201.pdf?forcedownload=1",
+            "timecreated": 1523774214,
+            "timemodified": 1523774214,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42819,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42819",
+        "name": "Vaja 2 Bootstrap",
+        "instance": 22189,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Vaja 2 Bootstrap.pdf",
+            "filepath": "/",
+            "filesize": 474801,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70651/mod_resource/content/0/Vaja%202%20Bootstrap.pdf?forcedownload=1",
+            "timecreated": 1523774216,
+            "timemodified": 1523774217,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 42820,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=42820",
+        "name": "Vaja 3 Bootstrap",
+        "instance": 22190,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Vaja 3 Bootstrap.pdf",
+            "filepath": "/",
+            "filesize": 590301,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/70652/mod_resource/content/0/Vaja%203%20Bootstrap.pdf?forcedownload=1",
+            "timecreated": 1523774219,
+            "timemodified": 1523774219,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 27744,
+        "url": "https://eucilnica.scng.si/mod/url/view.php?id=27744",
+        "name": "Uvod v MVC",
+        "instance": 1325,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/url/1527072998/icon",
+        "modname": "url",
+        "modplural": "URL-ji",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "url",
+            "filename": "Uvod v MVC",
+            "filepath": null,
+            "filesize": 0,
+            "fileurl": "http://www.asp.net/mvc/tutorials/mvc-4/getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4",
+            "timecreated": null,
+            "timemodified": 1441960708,
+            "sortorder": null,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 27815,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27815",
+        "name": "Web API",
+        "instance": 17372,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Zacnimo_z_Web_API.pdf",
+            "filepath": "/",
+            "filesize": 887471,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43627/mod_resource/content/0/Zacnimo_z_Web_API.pdf?forcedownload=1",
+            "timecreated": 1441949069,
+            "timemodified": 1397751592,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1549,
+    "name": "MVVM",
+    "visible": 1,
+    "summary": "MVVM",
+    "summaryformat": 1,
+    "section": 5,
+    "hiddenbynumsections": 0,
+    "uservisible": true,
+    "modules": [
+      {
+        "id": 17427,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=17427",
+        "name": "Navdih",
+        "instance": 10733,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Navdih.pptx",
+            "filepath": "/",
+            "filesize": 9879070,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/26580/mod_resource/content/0/Navdih.pptx?forcedownload=1",
+            "timecreated": 1441949064,
+            "timemodified": 1297529405,
+            "sortorder": 0,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 38951,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=38951",
+        "name": "Uvod v UWP",
+        "instance": 20786,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/powerpoint-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Uvod v UWP.pptx",
+            "filepath": "/",
+            "filesize": 3234649,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60512/mod_resource/content/0/Uvod%20v%20UWP.pptx?forcedownload=1",
+            "timecreated": 1462090139,
+            "timemodified": 1462090139,
+            "sortorder": 1,
+            "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 27852,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27852",
+        "name": "Osnove XAML-a Windows 8.1",
+        "instance": 17398,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Osnove_XAML.pdf",
+            "filepath": "/",
+            "filesize": 781264,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43666/mod_resource/content/0/Osnove_XAML.pdf?forcedownload=1",
+            "timecreated": 1441949064,
+            "timemodified": 1398355800,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 38981,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=38981",
+        "name": "Osnove XAML UWP Windows 10",
+        "instance": 20799,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Osnove XAML UWP.pdf",
+            "filepath": "/",
+            "filesize": 1182964,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60542/mod_resource/content/0/Osnove%20XAML%20UWP.pdf?forcedownload=1",
+            "timecreated": 1462717501,
+            "timemodified": 1462717501,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 38952,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=38952",
+        "name": "LoremIpsum",
+        "instance": 20787,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/text-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "LoremIpsum.txt",
+            "filepath": "/",
+            "filesize": 3029,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60513/mod_resource/content/0/LoremIpsum.txt?forcedownload=1",
+            "timecreated": 1462093640,
+            "timemodified": 1462093640,
+            "sortorder": 1,
+            "mimetype": "text/plain",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 38980,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=38980",
+        "name": "Food",
+        "instance": 20798,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/png-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Food.png",
+            "filepath": "/",
+            "filesize": 237221,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60541/mod_resource/content/0/Food.png?forcedownload=1",
+            "timecreated": 1462717246,
+            "timemodified": 1462717246,
+            "sortorder": 1,
+            "mimetype": "image/png",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 38979,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=38979",
+        "name": "Financial",
+        "instance": 20797,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/png-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Financial.png",
+            "filepath": "/",
+            "filesize": 185837,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60540/mod_resource/content/0/Financial.png?forcedownload=1",
+            "timecreated": 1462717232,
+            "timemodified": 1462717232,
+            "sortorder": 1,
+            "mimetype": "image/png",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 40767,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=40767",
+        "name": "TestKontrolnikov",
+        "instance": 21385,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "TestKontrolnikov.7z",
+            "filepath": "/",
+            "filesize": 3904307,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/66411/mod_resource/content/0/TestKontrolnikov.7z?forcedownload=1",
+            "timecreated": 1493966332,
+            "timemodified": 1493966332,
+            "sortorder": 1,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 38983,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=38983",
+        "name": "Stili in predloge",
+        "instance": 20801,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Stili in predloge.pdf",
+            "filepath": "/",
+            "filesize": 650472,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60544/mod_resource/content/0/Stili%20in%20predloge.pdf?forcedownload=1",
+            "timecreated": 1462721235,
+            "timemodified": 1462721235,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 38982,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=38982",
+        "name": "GoNuts",
+        "instance": 20800,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "GoNuts.zip",
+            "filepath": "/",
+            "filesize": 4017597,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60543/mod_resource/content/0/GoNuts.zip?forcedownload=1",
+            "timecreated": 1462721165,
+            "timemodified": 1462721165,
+            "sortorder": 1,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39031,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39031",
+        "name": "AdaptiveLayout",
+        "instance": 20823,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "AdaptiveLayout.pdf",
+            "filepath": "/",
+            "filesize": 963528,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60597/mod_resource/content/0/AdaptiveLayout.pdf?forcedownload=1",
+            "timecreated": 1463300436,
+            "timemodified": 1463300436,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39030,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39030",
+        "name": "Tibbles",
+        "instance": 20822,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/jpeg-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Tibbles.jpg",
+            "filepath": "/",
+            "filesize": 811037,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60596/mod_resource/content/0/Tibbles.jpg?forcedownload=1",
+            "timecreated": 1463300277,
+            "timemodified": 1463300277,
+            "sortorder": 1,
+            "mimetype": "image/jpeg",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39061,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39061",
+        "name": "Vezanje",
+        "instance": 20834,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Vezanje.pdf",
+            "filepath": "/",
+            "filesize": 454642,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60638/mod_resource/content/0/Vezanje.pdf?forcedownload=1",
+            "timecreated": 1463805376,
+            "timemodified": 1463805376,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39032,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39032",
+        "name": "Assets",
+        "instance": 20824,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Assets.7z",
+            "filepath": "/",
+            "filesize": 419119,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60598/mod_resource/content/0/Assets.7z?forcedownload=1",
+            "timecreated": 1463320208,
+            "timemodified": 1463320208,
+            "sortorder": 1,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39033,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39033",
+        "name": "Images",
+        "instance": 20825,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Images.7z",
+            "filepath": "/",
+            "filesize": 84323,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60599/mod_resource/content/0/Images.7z?forcedownload=1",
+            "timecreated": 1463322369,
+            "timemodified": 1463322369,
+            "sortorder": 1,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 43066,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=43066",
+        "name": "MVVM model",
+        "instance": 22260,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "MVVM model v Windows Store aplikaciji.pdf",
+            "filepath": "/",
+            "filesize": 735237,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/71015/mod_resource/content/0/MVVM%20model%20v%20Windows%20Store%20aplikaciji.pdf?forcedownload=1",
+            "timecreated": 1527154318,
+            "timemodified": 1527154318,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 27991,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27991",
+        "name": "Vaja-MVVM model 23.5.2017",
+        "instance": 17488,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Uporaba_MVVM.pdf",
+            "filepath": "/",
+            "filesize": 474836,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43830/mod_resource/content/1/Uporaba_MVVM.pdf?forcedownload=1",
+            "timecreated": 1441949069,
+            "timemodified": 1400824795,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 27909,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27909",
+        "name": "Lastnosti Windows Store apikacije",
+        "instance": 17439,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "OsnoveXaml_2del.pdf",
+            "filepath": "/",
+            "filesize": 758343,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43740/mod_resource/content/0/OsnoveXaml_2del.pdf?forcedownload=1",
+            "timecreated": 1441949064,
+            "timemodified": 1399786632,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 27944,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27944",
+        "name": "Delo z datotekami",
+        "instance": 17456,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "VajaDatotekeStore.pdf",
+            "filepath": "/",
+            "filesize": 437030,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43781/mod_resource/content/0/VajaDatotekeStore.pdf?forcedownload=1",
+            "timecreated": 1441949069,
+            "timemodified": 1400222909,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 39103,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39103",
+        "name": "primer -30.5.2016",
+        "instance": 20849,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/text-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "primer.json",
+            "filepath": "/",
+            "filesize": 1578,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60682/mod_resource/content/0/primer.json?forcedownload=1",
+            "timecreated": 1464512155,
+            "timemodified": 1464512156,
+            "sortorder": 1,
+            "mimetype": "text/plain",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39104,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39104",
+        "name": "UčilnicaMoodle",
+        "instance": 20850,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "UčilnicaMoodle.pdf",
+            "filepath": "/",
+            "filesize": 444518,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60683/mod_resource/content/0/U%C4%8DilnicaMoodle.pdf?forcedownload=1",
+            "timecreated": 1464512243,
+            "timemodified": 1464512243,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 40736,
+        "url": "https://eucilnica.scng.si/mod/url/view.php?id=40736",
+        "name": "Povezava na spletno stran učeilnice",
+        "instance": 3837,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/url/1527072998/icon",
+        "modname": "url",
+        "modplural": "URL-ji",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "url",
+            "filename": "Povezava na spletno stran učeilnice",
+            "filepath": null,
+            "filesize": 0,
+            "fileurl": "https://eucilnica.scng.si/webservice/rest/server.php?wstoken=10ee27a3802957bcb49252cfda803d81&wsfunction=core_course_get_contents&courseid=133&moodlewsrestformat=json",
+            "timecreated": null,
+            "timemodified": 1492931184,
+            "sortorder": null,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 39126,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39126",
+        "name": "Slike za učilnico",
+        "instance": 20856,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Assets.zip",
+            "filepath": "/",
+            "filesize": 275586,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60712/mod_resource/content/1/Assets.zip?forcedownload=1",
+            "timecreated": 1465120986,
+            "timemodified": 1465120986,
+            "sortorder": 1,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 40832,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=40832",
+        "name": "UčilnicaRPA 16.5.2017",
+        "instance": 21407,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "UčilnicaRPA.7z",
+            "filepath": "/",
+            "filesize": 4405309,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/66503/mod_resource/content/1/U%C4%8DilnicaRPA.7z?forcedownload=1",
+            "timecreated": 1494934258,
+            "timemodified": 1494934259,
+            "sortorder": 1,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 27911,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27911",
+        "name": "Vaje - Windows store in Web API",
+        "instance": 17441,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "VajeStoreApi.pdf",
+            "filepath": "/",
+            "filesize": 337650,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43742/mod_resource/content/0/VajeStoreApi.pdf?forcedownload=1",
+            "timecreated": 1441949069,
+            "timemodified": 1399795165,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 27910,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27910",
+        "name": "Klic Web API servisa iz Windows Store aplikacije",
+        "instance": 17440,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Klic_Web_API_servisa_iz_Windows_Store_aplikacije.pdf",
+            "filepath": "/",
+            "filesize": 340737,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43741/mod_resource/content/0/Klic_Web_API_servisa_iz_Windows_Store_aplikacije.pdf?forcedownload=1",
+            "timecreated": 1441949063,
+            "timemodified": 1399789460,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 28004,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=28004",
+        "name": "Štoparica",
+        "instance": 17497,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "MVVM_model_-_stoparica.pdf",
+            "filepath": "/",
+            "filesize": 478290,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43851/mod_resource/content/0/MVVM_model_-_stoparica.pdf?forcedownload=1",
+            "timecreated": 1441949064,
+            "timemodified": 1401122116,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 28040,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=28040",
+        "name": "Kuharska knjiga - hub aplikacija",
+        "instance": 17524,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Contoso_kuharska_knjiga.pdf",
+            "filepath": "/",
+            "filesize": 844874,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43891/mod_resource/content/0/Contoso_kuharska_knjiga.pdf?forcedownload=1",
+            "timecreated": 1441949057,
+            "timemodified": 1401428495,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 27951,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=27951",
+        "name": "Slike za ploščice",
+        "instance": 17462,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "SlikeZaTile.zip",
+            "filepath": "/",
+            "filesize": 45180,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43790/mod_resource/content/0/SlikeZaTile.zip?forcedownload=1",
+            "timecreated": 1441949068,
+            "timemodified": 1400403641,
+            "sortorder": 0,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 28039,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=28039",
+        "name": "Slike Contoso kuhar",
+        "instance": 17523,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Images.7z",
+            "filepath": "/",
+            "filesize": 5262665,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43890/mod_resource/content/0/Images.7z?forcedownload=1",
+            "timecreated": 1441949059,
+            "timemodified": 1401428369,
+            "sortorder": 0,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 28052,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=28052",
+        "name": "Vzorčni podatki",
+        "instance": 17530,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/unknown-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "SampleData.json",
+            "filepath": "/",
+            "filesize": 58393,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43907/mod_resource/content/0/SampleData.json?forcedownload=1",
+            "timecreated": 1441949066,
+            "timemodified": 1401725050,
+            "sortorder": 0,
+            "mimetype": "document/unknown",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 28054,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=28054",
+        "name": "Dodatne slike",
+        "instance": 17532,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "DodatneSLike.7z",
+            "filepath": "/",
+            "filesize": 6150144,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43909/mod_resource/content/0/DodatneSLike.7z?forcedownload=1",
+            "timecreated": 1441949057,
+            "timemodified": 1401780332,
+            "sortorder": 0,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 21404,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=21404",
+        "name": "Delegat Action",
+        "instance": 13340,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Action_delegat.pdf",
+            "filepath": "/",
+            "filesize": 240056,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/32629/mod_resource/content/0/Action_delegat.pdf?forcedownload=1",
+            "timecreated": 1441949057,
+            "timemodified": 1326359795,
+            "sortorder": 0,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 28001,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=28001",
+        "name": "Čebele",
+        "instance": 17494,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/document-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Animacije.docx",
+            "filepath": "/",
+            "filesize": 17541,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43848/mod_resource/content/0/Animacije.docx?forcedownload=1",
+            "timecreated": 1441949057,
+            "timemodified": 1401118507,
+            "sortorder": 0,
+            "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 28002,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=28002",
+        "name": "Slike čebel",
+        "instance": 17495,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "SlikeBee.7z",
+            "filepath": "/",
+            "filesize": 451531,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/43849/mod_resource/content/0/SlikeBee.7z?forcedownload=1",
+            "timecreated": 1441949067,
+            "timemodified": 1401118565,
+            "sortorder": 0,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 39125,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39125",
+        "name": "Xamarin osnovno",
+        "instance": 20855,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/pdf-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Xamarin osnovno.pdf",
+            "filepath": "/",
+            "filesize": 626060,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60711/mod_resource/content/0/Xamarin%20osnovno.pdf?forcedownload=1",
+            "timecreated": 1465116708,
+            "timemodified": 1465116708,
+            "sortorder": 1,
+            "mimetype": "application/pdf",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39176,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39176",
+        "name": "DatotekeZaApp",
+        "instance": 20870,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 1,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "DatotekeZaApp.zip",
+            "filepath": "/",
+            "filesize": 1861,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60814/mod_resource/content/0/DatotekeZaApp.zip?forcedownload=1",
+            "timecreated": 1465716476,
+            "timemodified": 1465716476,
+            "sortorder": 1,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39175,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39175",
+        "name": "XAM110-ex1-start",
+        "instance": 20869,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "XAM110-ex1-start.zip",
+            "filepath": "/",
+            "filesize": 116591,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60813/mod_resource/content/0/XAM110-ex1-start.zip?forcedownload=1",
+            "timecreated": 1465715073,
+            "timemodified": 1465715073,
+            "sortorder": 1,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39173,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39173",
+        "name": "XAM110-ex1-assets",
+        "instance": 20867,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "XAM110-ex1-assets.zip",
+            "filepath": "/",
+            "filesize": 7633,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60811/mod_resource/content/0/XAM110-ex1-assets.zip?forcedownload=1",
+            "timecreated": 1465715012,
+            "timemodified": 1465715012,
+            "sortorder": 1,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 39174,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=39174",
+        "name": "XAM110-ex2-start",
+        "instance": 20868,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "XAM110-ex2-start.zip",
+            "filepath": "/",
+            "filesize": 165961,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/60812/mod_resource/content/0/XAM110-ex2-start.zip?forcedownload=1",
+            "timecreated": 1465715031,
+            "timemodified": 1465715031,
+            "sortorder": 1,
+            "mimetype": "application/zip",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 40751,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=40751",
+        "name": "UporabaHamburgerja",
+        "instance": 21375,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "UporabaHamburgerja.7z",
+            "filepath": "/",
+            "filesize": 4381394,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/66348/mod_resource/content/0/UporabaHamburgerja.7z?forcedownload=1",
+            "timecreated": 1493118500,
+            "timemodified": 1493118500,
+            "sortorder": 1,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 40923,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=40923",
+        "name": "Stoparica 6.6.2017",
+        "instance": 21436,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Stoparica.7z",
+            "filepath": "/",
+            "filesize": 3917511,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/66738/mod_resource/content/0/Stoparica.7z?forcedownload=1",
+            "timecreated": 1496744801,
+            "timemodified": 1496744802,
+            "sortorder": 1,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 43087,
+        "url": "https://eucilnica.scng.si/mod/page/view.php?id=43087",
+        "name": "DeleagteCommand",
+        "instance": 2459,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/page/1527072998/icon",
+        "modname": "page",
+        "modplural": "Strani",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "index.html",
+            "filepath": "/",
+            "filesize": 0,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/71041/mod_page/content/index.html?forcedownload=1",
+            "timecreated": null,
+            "timemodified": 1527669297,
+            "sortorder": 1,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 43089,
+        "url": "https://eucilnica.scng.si/mod/resource/view.php?id=43089",
+        "name": "Stoparica 30.5.2018",
+        "instance": 22266,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/core/1527072998/f/archive-24",
+        "modname": "resource",
+        "modplural": "Viri",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "file",
+            "filename": "Stoparica.7z",
+            "filepath": "/",
+            "filesize": 4947994,
+            "fileurl": "https://eucilnica.scng.si/webservice/pluginfile.php/71044/mod_resource/content/0/Stoparica.7z?forcedownload=1",
+            "timecreated": 1527673841,
+            "timemodified": 1527673841,
+            "sortorder": 1,
+            "mimetype": "application/x-7z-compressed",
+            "isexternalfile": false,
+            "userid": 521,
+            "author": null,
+            "license": "allrightsreserved"
+          }
+        ]
+      },
+      {
+        "id": 43106,
+        "url": "https://eucilnica.scng.si/mod/url/view.php?id=43106",
+        "name": "Link do WebAPI-jev",
+        "instance": 4103,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/url/1527072998/icon",
+        "modname": "url",
+        "modplural": "URL-ji",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "url",
+            "filename": "Link do WebAPI-jev",
+            "filepath": null,
+            "filesize": 0,
+            "fileurl": "https://www.programmableweb.com/api/catalog",
+            "timecreated": null,
+            "timemodified": 1528031436,
+            "sortorder": null,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      },
+      {
+        "id": 43107,
+        "url": "https://eucilnica.scng.si/mod/url/view.php?id=43107",
+        "name": "Slike do psov WebAPI",
+        "instance": 4104,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/url/1527072998/icon",
+        "modname": "url",
+        "modplural": "URL-ji",
+        "indent": 0,
+        "contents": [
+          {
+            "type": "url",
+            "filename": "Slike do psov WebAPI",
+            "filepath": null,
+            "filesize": 0,
+            "fileurl": "https://dog.ceo/api/breed/bullterrier/staffordshire/images",
+            "timecreated": null,
+            "timemodified": 1528031511,
+            "sortorder": null,
+            "userid": null,
+            "author": null,
+            "license": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1550,
+    "name": "Izpiti",
+    "visible": 1,
+    "summary": "<br>",
+    "summaryformat": 1,
+    "section": 6,
+    "hiddenbynumsections": 0,
+    "uservisible": true,
+    "modules": [
+      {
+        "id": 17706,
+        "url": "https://eucilnica.scng.si/mod/quiz/view.php?id=17706",
+        "name": "Preveri svoje znanje",
+        "instance": 139,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/quiz/1527072998/icon",
+        "modname": "quiz",
+        "modplural": "Kvizi",
+        "indent": 0
+      },
+      {
+        "id": 40748,
+        "url": "https://eucilnica.scng.si/mod/quiz/view.php?id=40748",
+        "name": "Izpit 13.6.2017",
+        "instance": 342,
+        "visible": 1,
+        "uservisible": true,
+        "visibleoncoursepage": 1,
+        "modicon": "https://eucilnica.scng.si/theme/image.php/handlebar/quiz/1527072998/icon",
+        "modname": "quiz",
+        "modplural": "Kvizi",
+        "indent": 0
+      }
+    ]
+  }
+]
