@@ -1,0 +1,9 @@
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\bin\Debug\netstandard2.0\XamarinPsi.deps.json
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\bin\Debug\netstandard2.0\XamarinPsi.dll
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\bin\Debug\netstandard2.0\XamarinPsi.pdb
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\obj\Debug\netstandard2.0\XamarinPsi.csproj.CoreCompileInputs.cache
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\obj\Debug\netstandard2.0\XamarinPsi.AssemblyInfoInputs.cache
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\obj\Debug\netstandard2.0\XamarinPsi.AssemblyInfo.cs
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\obj\Debug\netstandard2.0\XamarinPsi.dll
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\obj\Debug\netstandard2.0\XamarinPsi.pdb
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi\obj\Debug\netstandard2.0\XamarinPsi.csprojAssemblyReference.cache

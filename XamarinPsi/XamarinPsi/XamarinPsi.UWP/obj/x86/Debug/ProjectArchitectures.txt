@@ -1,0 +1,1 @@
+C:\MIGit\MIGit\XamarinPsi\XamarinPsi\XamarinPsi.UWP\XamarinPsi.UWP.csproj;x86
