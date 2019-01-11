@@ -8,3 +8,13 @@ C:\Users\matic\source\repos\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\Re
 C:\Users\matic\source\repos\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.exe
 C:\Users\matic\source\repos\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.pdb
 C:\Users\matic\source\repos\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.ReševanjeLabirinta.resources
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.csprojAssemblyReference.cache
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.ReševanjeLabirinta.resources
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.Properties.Resources.resources
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.csproj.GenerateResource.cache
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.csproj.CoreCompileInputs.cache
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.exe
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\obj\Debug\ReševanjeLabirinta.pdb
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\bin\Debug\ReševanjeLabirinta.exe.config
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\bin\Debug\ReševanjeLabirinta.exe
+E:\MIGit\ReševanjeLabirinta\ReševanjeLabirinta\bin\Debug\ReševanjeLabirinta.pdb

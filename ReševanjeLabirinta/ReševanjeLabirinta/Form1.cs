@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +22,21 @@ namespace ReševanjeLabirinta
             {
                 this.row = r;
                 this.column = c;
+            }
+
+            public static bool operator ==(Index e1, Index e2)
+            {
+                if (e1.column == e2.column && e1.row == e2.row)
+                    return true;
+                else
+                    return false;
+            }
+            public static bool operator !=(Index e1, Index e2)
+            {
+                if (e1.column != e2.column && e1.row != e2.row)
+                    return true;
+                else
+                    return false;
             }
         }
         private static string file;
@@ -123,9 +139,12 @@ namespace ReševanjeLabirinta
         {
             var mtx = matrix;
             path.Add(mtx[index.row, index.column]);
+            List<Index> visited = new List<Index>();
+            visited.Add(index);
 
             List<Index> find = new List<Index>();
             find.Add(index);
+
             while (find.Count > 0)
             {
                 index = find[0];
@@ -135,47 +154,51 @@ namespace ReševanjeLabirinta
                 Index right = new Index(index.row, index.column + 1);
                 Index left = new Index(index.row, index.column - 1);
 
-                if (up.row < mtx.GetLength(0))
+                if (up.row >= 0 && visited.Contains<Index>(up))
                 {
                     if (mtx[up.row, up.column] >= 0)
                     {
                         path.Add(mtx[up.row, up.column]);
                         find.Add(up);
+                        visited.Add(up);
                     }
                     else if (mtx[up.row, up.column] == -3)
                         break;
                 }
-                if (right.column < mtx.GetLength(1))
+                if (right.column < mtx.GetLength(1) && !visited.Contains(right))
                 {
-                    if(mtx[right.row, right.column] >= 0)
+                    if (mtx[right.row, right.column] >= 0)
                     {
                         path.Add(mtx[right.row, right.column]);
                         find.Add(right);
+                        visited.Add(right);
                     }
                     else if (mtx[right.row, right.column] == -3)
                         break;
                 }
-                if (down.row >= 0) 
-                { 
+                if (down.row < mtx.GetLength(0) && !visited.Contains(down))
+                {
                     if (mtx[down.row, down.column] >= 0)
                     {
                         path.Add(mtx[down.row, down.column]);
                         find.Add(down);
-                    } 
+                        visited.Add(down);
+                    }
                     else if (mtx[down.row, down.column] == -3)
                         break;
-                }  
-                if (left.column >= 0)
+                }
+                if (left.column >= 0 && !visited.Contains(left))
                 {
-                    if(mtx[left.row, left.column] >= 0)
+                    if (mtx[left.row, left.column] >= 0)
                     {
                         path.Add(mtx[left.row, left.column]);
                         find.Add(left);
-                    } 
+                        visited.Add(left);
+                    }
                     else if (mtx[left.row, left.column] == -3)
                         break;
                 }
-                    
+
             }
 
             for (int i=0; i<path.Count; i++)
@@ -193,5 +216,6 @@ namespace ReševanjeLabirinta
         {
             throw new NotImplementedException();
         }
+
     }
 }
