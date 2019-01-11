@@ -14,7 +14,7 @@ namespace ReševanjeLabirinta
 {
     public partial class ReševanjeLabirinta : Form
     {
-        class Index
+        class Index : IEquatable<Index>
         {
             public int row, column;
 
@@ -24,16 +24,9 @@ namespace ReševanjeLabirinta
                 this.column = c;
             }
 
-            public static bool operator ==(Index e1, Index e2)
+            public bool Equals(Index other)
             {
-                if (e1.column == e2.column && e1.row == e2.row)
-                    return true;
-                else
-                    return false;
-            }
-            public static bool operator !=(Index e1, Index e2)
-            {
-                if (e1.column != e2.column && e1.row != e2.row)
+                if (other.column == this.column && other.row == this.row)
                     return true;
                 else
                     return false;
@@ -154,7 +147,7 @@ namespace ReševanjeLabirinta
                 Index right = new Index(index.row, index.column + 1);
                 Index left = new Index(index.row, index.column - 1);
 
-                if (up.row >= 0 && visited.Contains<Index>(up))
+                if (up.row >= 0 && !visited.Contains<Index>(up))
                 {
                     if (mtx[up.row, up.column] >= 0)
                     {
@@ -203,7 +196,7 @@ namespace ReševanjeLabirinta
 
             for (int i=0; i<path.Count; i++)
             {
-                lblSolvedMatrix.Text += path[i] + ",";
+                lblSolvedMatrix.Text += path[i] + ",\n";
             }
         }
 
