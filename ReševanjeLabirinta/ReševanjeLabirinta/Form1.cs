@@ -1,48 +1,24 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ReševanjeLabirinta
 {
     public partial class ReševanjeLabirinta : Form
     {
-        class Index : IEquatable<Index>
-        {
-            public int row, column;
-
-            public Index(int r, int c)
-            {
-                this.row = r;
-                this.column = c;
-            }
-
-            public bool Equals(Index other)
-            {
-                if (other.column == this.column && other.row == this.row)
-                    return true;
-                else
-                    return false;
-            }
-        }
         private static string file;
-        private int[,]  matrix;
-        private List<int> path;
-        private Index root;
+        private static int[,]  matrix;
+        private static List<int> path;
+        private static Index root;
 
         public ReševanjeLabirinta()
         {
             InitializeComponent();
             comboBox.DataSource = loadAlgorithms();
             file = string.Empty;
-            path = new List<int>();
         }
 
         private List<string> loadAlgorithms()
@@ -94,7 +70,7 @@ namespace ReševanjeLabirinta
             }
         }
 
-        private void toMatrix(List<List<int>> lst)
+        private static void toMatrix(List<List<int>> lst)
         {
             int c = lst.Count;
             int r = lst[0].Count;
@@ -118,19 +94,20 @@ namespace ReševanjeLabirinta
         {
             switch ((string)comboBox.SelectedItem)
             {
-                case "A*": aStar();
+                case "A*": aStar(); printPath();
                     break;
-                case "Iskanje v globino": Dfs();
+                case "Iskanje v globino": Dfs(root); printPath();
                     break;
-                case "Iskanje v širino": Bfs(root);
+                case "Iskanje v širino": Bfs(root); printPath();
                     break;
                 default: break;
             }
         }
 
-        private void Bfs(Index index)
+        private static void Bfs(Index index)
         {
             var mtx = matrix;
+            path = new List<int>();
             path.Add(mtx[index.row, index.column]);
             List<Index> visited = new List<Index>();
             visited.Add(index);
@@ -193,16 +170,27 @@ namespace ReševanjeLabirinta
                 }
 
             }
-
-            for (int i=0; i<path.Count; i++)
-            {
-                lblSolvedMatrix.Text += path[i] + ",\n";
-            }
+            
         }
 
-        private void Dfs()
+        private static void Dfs(Index index)
         {
-            throw new NotImplementedException();
+            if (matrix[index.column, index.row] == -1)
+                return;
+            if (matrix[index.column, index.row] == -3)
+                return;
+
+            Index up = new Index(index.row - 1, index.column);
+            Index down = new Index(index.row + 1, index.column);
+            Index right = new Index(index.row, index.column + 1);
+            Index left = new Index(index.row, index.column - 1);
+
+            Dfs(up);
+            Dfs(right);
+            Dfs(down);
+            Dfs(left);
+
+            path.Add(matrix[index.column, index.row]);
         }
 
         private void aStar()
@@ -210,5 +198,12 @@ namespace ReševanjeLabirinta
             throw new NotImplementedException();
         }
 
+        private void printPath()
+        {
+            for (int i = 0; i < path.Count; i++)
+            {
+                lblSolvedMatrix.Text += path[i] + ",\n";
+            }
+        }
     }
 }
