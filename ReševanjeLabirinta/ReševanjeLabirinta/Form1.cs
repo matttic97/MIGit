@@ -96,18 +96,23 @@ namespace ReševanjeLabirinta
             {
                 case "A*": aStar(); printPath();
                     break;
-                case "Iskanje v globino": Dfs(root); printPath();
+                case "Iskanje v globino": prepare(); Dfs(root); printPath();
                     break;
-                case "Iskanje v širino": Bfs(root); printPath();
+                case "Iskanje v širino": prepare(); Bfs(root); printPath();
                     break;
                 default: break;
             }
         }
 
+        private void prepare()
+        {
+            path = new List<int>();
+            lblSolvedMatrix.Text = "";
+        }
+
         private static void Bfs(Index index)
         {
             var mtx = matrix;
-            path = new List<int>();
             path.Add(mtx[index.row, index.column]);
             List<Index> visited = new List<Index>();
             visited.Add(index);
@@ -173,24 +178,27 @@ namespace ReševanjeLabirinta
             
         }
 
-        private static void Dfs(Index index)
+        private static void Dfs(Index index) // ne uporabljat še ki bo krešnilo haha
         {
             if (matrix[index.column, index.row] == -1)
                 return;
             if (matrix[index.column, index.row] == -3)
                 return;
+            else
+            {
+                var up = new Index(index.row - 1, index.column);
+                var down = new Index(index.row + 1, index.column);
+                var right = new Index(index.row, index.column + 1);
+                var left = new Index(index.row, index.column - 1);
 
-            Index up = new Index(index.row - 1, index.column);
-            Index down = new Index(index.row + 1, index.column);
-            Index right = new Index(index.row, index.column + 1);
-            Index left = new Index(index.row, index.column - 1);
+                Dfs(up); 
+                Dfs(right);
+                Dfs(down);
+                Dfs(left);
 
-            Dfs(up);
-            Dfs(right);
-            Dfs(down);
-            Dfs(left);
-
-            path.Add(matrix[index.column, index.row]);
+                path.Add(matrix[index.column, index.row]);
+            }
+            
         }
 
         private void aStar()
