@@ -11,7 +11,9 @@ namespace ReševanjeLabirinta
     {
         private static string file;
         private static int[,]  matrix;
-        private static List<int> path;
+        private static List<List<Index>> path;
+        private static List<Index> pathPrint;
+        private static List<Index> visited;
         private static Index root;
 
         public ReševanjeLabirinta()
@@ -92,29 +94,32 @@ namespace ReševanjeLabirinta
 
         private void btnSort_Click(object sender, EventArgs e)
         {
+            visited = new List<Index>();
+            prepare();
             switch ((string)comboBox.SelectedItem)
             {
-                case "A*": aStar(); printPath();
+                case "A*": aStar();
                     break;
-                case "Iskanje v globino": prepare(); Dfs(root); printPath();
+                case "Iskanje v globino": Dfs(root);
                     break;
-                case "Iskanje v širino": prepare(); Bfs(root); printPath();
+                case "Iskanje v širino": Bfs(root);
                     break;
                 default: break;
             }
+            pathPrint.Add(path.First().ElementAt(0));
+            printPath();
         }
 
         private void prepare()
         {
-            path = new List<int>();
+            path = new List<List<Index>>();
             lblSolvedMatrix.Text = "";
         }
 
         private static void Bfs(Index index)
         {
             var mtx = matrix;
-            path.Add(mtx[index.row, index.column]);
-            List<Index> visited = new List<Index>();
+            path.Add(new List<Index>() { index, null });
             visited.Add(index);
 
             List<Index> find = new List<Index>();
@@ -133,71 +138,103 @@ namespace ReševanjeLabirinta
                 {
                     if (mtx[up.row, up.column] >= 0)
                     {
-                        path.Add(mtx[up.row, up.column]);
+                        path.Add(new List<Index>() { up, index });
                         find.Add(up);
                         visited.Add(up);
                     }
                     else if (mtx[up.row, up.column] == -3)
+                    {
+                        path.Add(new List<Index>() { up, index });
                         break;
+                    }
+                        
                 }
                 if (right.column < mtx.GetLength(1) && !visited.Contains(right))
                 {
                     if (mtx[right.row, right.column] >= 0)
                     {
-                        path.Add(mtx[right.row, right.column]);
+                        path.Add(new List<Index>() { right, index });
                         find.Add(right);
                         visited.Add(right);
                     }
                     else if (mtx[right.row, right.column] == -3)
+                    {
+                        path.Add(new List<Index>() { right, index });
                         break;
+                    }
                 }
                 if (down.row < mtx.GetLength(0) && !visited.Contains(down))
                 {
                     if (mtx[down.row, down.column] >= 0)
                     {
-                        path.Add(mtx[down.row, down.column]);
+                        path.Add(new List<Index>() { down, index });
                         find.Add(down);
                         visited.Add(down);
                     }
                     else if (mtx[down.row, down.column] == -3)
+                    {
+                        path.Add(new List<Index>() { down, index });
                         break;
+                    }
                 }
                 if (left.column >= 0 && !visited.Contains(left))
                 {
                     if (mtx[left.row, left.column] >= 0)
                     {
-                        path.Add(mtx[left.row, left.column]);
+                        path.Add(new List<Index>() { left, index });
                         find.Add(left);
                         visited.Add(left);
                     }
                     else if (mtx[left.row, left.column] == -3)
+                    {
+                        path.Add(new List<Index>() { left, index });
                         break;
+                    }
                 }
 
             }
-            
+
+            pathPrint = new List<Index>();
+            pathPrint.Add(path.Last().ElementAt(0));
+            shortestPath(path.Last().ElementAt(1));
+        }
+
+        private static void shortestPath(Index index)
+        {
+            for (int i = path.Count - 2; i > 0; i--)
+            {
+                if (path[i].ElementAt(0).Equals(index)) // probaj obrnit da bo že urejen seznam
+                {
+                    pathPrint.Add(index);
+                    shortestPath(path[i].ElementAt(1));
+                    
+                } 
+            }
         }
 
         private static void Dfs(Index index) // ne uporabljat še ki bo krešnilo haha
         {
-            if (matrix[index.column, index.row] == -1)
-                return;
-            if (matrix[index.column, index.row] == -3)
-                return;
-            else
-            {
-                var up = new Index(index.row - 1, index.column);
-                var down = new Index(index.row + 1, index.column);
-                var right = new Index(index.row, index.column + 1);
-                var left = new Index(index.row, index.column - 1);
+            //if (matrix[index.column, index.row] == -1)
+            //    return;
+            //if (matrix[index.column, index.row] == -3)
+            //    return;
 
-                Dfs(up); 
-                Dfs(right);
-                Dfs(down);
-                Dfs(left);
+            //var up = new Index(index.row - 1, index.column);
+            //var down = new Index(index.row + 1, index.column);
+            //var right = new Index(index.row, index.column + 1);
+            //var left = new Index(index.row, index.column - 1);
 
-                path.Add(matrix[index.column, index.row]);
-            }
+            //if(!visited.Contains<Index>(up))
+            //    Dfs(up);
+            //if (!visited.Contains<Index>(right))
+            //    Dfs(right);
+            //if (!visited.Contains<Index>(down))
+            //    Dfs(down);
+            //if (!visited.Contains<Index>(left))
+            //    Dfs(left);
+
+            //path.Add(index);
+            //visited.Add(index);
             
         }
 
@@ -208,9 +245,9 @@ namespace ReševanjeLabirinta
 
         private void printPath()
         {
-            for (int i = 0; i < path.Count; i++)
+            for (int i = pathPrint.Count-1; i >= 0 ; i--)
             {
-                lblSolvedMatrix.Text += path[i] + ",\n";
+                lblSolvedMatrix.Text += pathPrint[i].row + " " + pathPrint[i].column + ",\n";
             }
         }
     }
