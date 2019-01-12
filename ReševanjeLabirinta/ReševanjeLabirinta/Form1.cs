@@ -94,7 +94,7 @@ namespace ReševanjeLabirinta
         {
             switch ((string)comboBox.SelectedItem)
             {
-                case "A*": aStar(); printPath();
+                case "A*": lblSolvedMatrix.Text = AStarAlgorithm.Solve(matrix);
                     break;
                 case "Iskanje v globino": Dfs(root); printPath();
                     break;
