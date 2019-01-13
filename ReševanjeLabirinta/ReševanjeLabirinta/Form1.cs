@@ -25,6 +25,7 @@ namespace ReševanjeLabirinta
         {
             List<string> collection = new List<string>();
             collection.Add("A*");
+            collection.Add("Dijkstra");
             collection.Add("IDE");
             collection.Add("Iskanje v globino");
             collection.Add("Iskanje v širino");
@@ -94,7 +95,10 @@ namespace ReševanjeLabirinta
         {
             switch ((string)comboBox.SelectedItem)
             {
-                case "A*": lblSolvedMatrix.Text = AStarAlgorithm.Solve(matrix);
+                case "A*": lblSolvedMatrix.Text = AStarAlgorithm.Solve(matrix, true);
+                    break;
+                case "Dijkstra":
+                    lblSolvedMatrix.Text = AStarAlgorithm.Solve(matrix, false);
                     break;
                 case "Iskanje v globino": Dfs(root); printPath();
                     break;
