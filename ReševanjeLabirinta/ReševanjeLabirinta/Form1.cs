@@ -26,6 +26,7 @@ namespace ReševanjeLabirinta
         {
             List<string> collection = new List<string>();
             collection.Add("A*");
+            collection.Add("Dijkstra");
             collection.Add("IDFS");
             collection.Add("BFS");
             collection.Add("DFS");
@@ -97,17 +98,24 @@ namespace ReševanjeLabirinta
             prepare();
             switch ((string)comboBox.SelectedItem)
             {
-                case "A*": aStar();
+                case "A*":
+                    lblSolvedMatrix.Text = AStarAlgorithm.Solve(matrix, true);
+                    break;
+                case "Dijkstra":
+                    lblSolvedMatrix.Text = AStarAlgorithm.Solve(matrix, false);
                     break;
                 case "DFS": //Dfs(root, null);
+                    pathPrint.Add(path.Last().ElementAt(0));
+                    printPath();
+                    shortestPath(path.Last().ElementAt(0));
                     break;
                 case "BFS": Bfs(root);
+                    pathPrint.Add(path.Last().ElementAt(0));
+                    printPath();
+                    shortestPath(path.Last().ElementAt(0));
                     break;
                 default: break;
             }
-            pathPrint.Add(path.Last().ElementAt(0));
-            printPath();
-            shortestPath(path.Last().ElementAt(0));
         }
 
         private void prepare()
@@ -292,6 +300,10 @@ namespace ReševanjeLabirinta
             {
                 lblSolvedMatrix.Text += i+1 + ". " + pathPrint[i].row + " " + pathPrint[i].column + ",\n";
             }
+        }
+
+        private void ReševanjeLabirinta_Load(object sender, EventArgs e) {
+
         }
     }
 }

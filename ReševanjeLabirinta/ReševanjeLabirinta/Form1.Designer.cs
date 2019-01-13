@@ -196,6 +196,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "ReševanjeLabirinta";
             this.Text = "ReševanjeLabirinta";
+            this.Load += new System.EventHandler(this.ReševanjeLabirinta_Load);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
             this.pnRight.ResumeLayout(false);
