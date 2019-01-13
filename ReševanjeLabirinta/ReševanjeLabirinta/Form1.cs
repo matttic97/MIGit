@@ -20,16 +20,15 @@ namespace ReševanjeLabirinta
         {
             InitializeComponent();
             comboBox.DataSource = loadAlgorithms();
-            file = string.Empty;
         }
 
         private List<string> loadAlgorithms()
         {
             List<string> collection = new List<string>();
             collection.Add("A*");
-            collection.Add("IDE");
-            collection.Add("Iskanje v globino");
-            collection.Add("Iskanje v širino");
+            collection.Add("IDFS");
+            collection.Add("BFS");
+            collection.Add("DFS");
             return collection;
         }
 
@@ -50,6 +49,7 @@ namespace ReševanjeLabirinta
 
                     using (StreamReader reader = new StreamReader(fileStream))
                     {
+                        file = string.Empty;
                         List<List<int>> list = new List<List<int>>();
                         for (int i=0; reader.Peek() >= 0; i++)
                         {
@@ -94,20 +94,20 @@ namespace ReševanjeLabirinta
 
         private void btnSort_Click(object sender, EventArgs e)
         {
-            visited = new List<Index>();
             prepare();
             switch ((string)comboBox.SelectedItem)
             {
                 case "A*": aStar();
                     break;
-                case "Iskanje v globino": Dfs(root);
+                case "DFS": //Dfs(root, null);
                     break;
-                case "Iskanje v širino": Bfs(root);
+                case "BFS": Bfs(root);
                     break;
                 default: break;
             }
-            //pathPrint.Add(path.Last().ElementAt(0));
+            pathPrint.Add(path.Last().ElementAt(0));
             printPath();
+            shortestPath(path.Last().ElementAt(0));
         }
 
         private void prepare()
@@ -212,14 +212,14 @@ namespace ReševanjeLabirinta
             }
         }
 
-        private static void Dfs(Index index) // ne uporabljat še ki bo krešnilo haha
+        private static void Dfs(Index index, Index parent)
         {
             if (matrix[index.column, index.row] == -3)
             {
-                shortestPath(index);
+                path.Add(new List<Index>(){ index, parent } );
+                //shortestPath(index);
                 return;
-            }
-                
+            }   
 
             Index up = new Index(index.row - 1, index.column);
             Index down = new Index(index.row + 1, index.column);
@@ -232,7 +232,7 @@ namespace ReševanjeLabirinta
                 {
                     path.Add(new List<Index>() { up, index });
                     visited.Add(up);
-                    Dfs(up);
+                    Dfs(up, index);
                 }
                 else if (matrix[index.column, index.row] == -3)
                 {
@@ -246,7 +246,7 @@ namespace ReševanjeLabirinta
                 {
                     path.Add(new List<Index>() { right, index });
                     visited.Add(right);
-                    Dfs(right);
+                    Dfs(right, index);
                 }
                 else if (matrix[index.column, index.row] == -3)
                 {
@@ -259,7 +259,7 @@ namespace ReševanjeLabirinta
                 {
                     path.Add(new List<Index>() { down, index });
                     visited.Add(down);
-                    Dfs(down);
+                    Dfs(down, index);
                 }
                 else if (matrix[index.column, index.row] == -3)
                 {
@@ -272,7 +272,7 @@ namespace ReševanjeLabirinta
                 {
                     path.Add(new List<Index>() { left, index });
                     visited.Add(left);
-                    Dfs(left);
+                    Dfs(left, index);
                 }
                 else if (matrix[index.column, index.row] == -3)
                 {
@@ -290,7 +290,7 @@ namespace ReševanjeLabirinta
         {
             for (int i = 0; i < pathPrint.Count; i++)
             {
-                lblSolvedMatrix.Text += pathPrint[i].row + " " + pathPrint[i].column + ",\n";
+                lblSolvedMatrix.Text += i+1 + ". " + pathPrint[i].row + " " + pathPrint[i].column + ",\n";
             }
         }
     }

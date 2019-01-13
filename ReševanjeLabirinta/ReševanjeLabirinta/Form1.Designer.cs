@@ -42,7 +42,6 @@
             this.comboBox = new System.Windows.Forms.ComboBox();
             this.btnSort = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.mainPanel.SuspendLayout();
             this.pnRight.SuspendLayout();
             this.pnLeft.SuspendLayout();
@@ -60,7 +59,7 @@
             this.mainPanel.Controls.Add(this.pnLeft);
             this.mainPanel.Location = new System.Drawing.Point(12, 68);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(802, 447);
+            this.mainPanel.Size = new System.Drawing.Size(802, 462);
             this.mainPanel.TabIndex = 2;
             // 
             // lblHeading2
@@ -90,7 +89,7 @@
             this.pnRight.Controls.Add(this.lblSolvedMatrix);
             this.pnRight.Location = new System.Drawing.Point(411, 54);
             this.pnRight.Name = "pnRight";
-            this.pnRight.Size = new System.Drawing.Size(388, 390);
+            this.pnRight.Size = new System.Drawing.Size(388, 405);
             this.pnRight.TabIndex = 1;
             // 
             // lblSolvedMatrix
@@ -109,7 +108,7 @@
             this.pnLeft.Controls.Add(this.lblLabMatrix);
             this.pnLeft.Location = new System.Drawing.Point(3, 54);
             this.pnLeft.Name = "pnLeft";
-            this.pnLeft.Size = new System.Drawing.Size(402, 390);
+            this.pnLeft.Size = new System.Drawing.Size(402, 405);
             this.pnLeft.TabIndex = 0;
             // 
             // lblLabMatrix
@@ -182,19 +181,11 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Algoritem:";
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(423, 519);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(223, 19);
-            this.progressBar1.TabIndex = 9;
-            // 
             // ReševanjeLabirinta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(826, 542);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.comboBox);
@@ -231,7 +222,6 @@
         private System.Windows.Forms.Label lblLabMatrix;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblSolvedMatrix;
-        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
